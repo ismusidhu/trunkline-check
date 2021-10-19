@@ -59,6 +59,19 @@ p {
 }
 
 .bigcircle {
+  position: relative;
   height: 70px;
   width: 70px;
+  margin: unset;
+  top: -50px;
+}
+.bigrectangle {
+  position: relative;
+  height: 70px;
+  width: 20px;
+  margin: unset;
+  top: 50px;
+  border: solid 2px green;
+  background-color: unset;
+
 }
