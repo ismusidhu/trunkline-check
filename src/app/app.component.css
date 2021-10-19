@@ -1,0 +1,64 @@
+p {
+  font-family: Lato;
+}
+.centerme {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.main {
+  position: relative;
+  width: 400px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.hr {
+  width: 98%;
+  height: 0px;
+  border: solid 3px blue;
+}
+.squares {
+  justify-content: space-between;
+  align-items: center;
+}
+.circles {
+  /* overflow: hidden; */
+  justify-content: space-around;
+  align-items: center;
+}
+.top {
+  z-index: 999;
+}
+.bottom {
+  z-index: -1;
+}
+.flx {
+  /* top: -15px; */
+  display: flex;
+  width: 100%;
+  /* align-items: stretch; */
+}
+
+.square {
+  /* display: block; */
+  /* position: sticky; */
+  background-color: black;
+  height: 15px;
+  width: 15px;
+}
+
+.circle {
+  height: 15px;
+  width: 15px;
+  border-radius: 7.5px;
+  background-color: orangered;
+}
+
+.bigcircle {
+  height: 70px;
+  width: 70px;
+}
